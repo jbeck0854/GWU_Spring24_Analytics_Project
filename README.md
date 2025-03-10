@@ -20,6 +20,7 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
   - Training rows: 7995
   - Validation rows: 1999
 - **Data Dictionary (as initially imported)**:
+
 **Data Overview**: Dataset contains information related to Sales, Profits and other facts of a Superstore giant (Kaggle).
   
 | Name       | Data Type       | Description       |**

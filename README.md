@@ -53,24 +53,23 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 | day_ordered  | object  | Day of the week Product was ordered. |
 | stand_delivery_delay  | int  | Calculated median average of time (days) between Order Date and Ship Date within each Ship Mode (assumed "Time to Ship" expectation for each Ship Mode e.g., "Standard Class" expected to ship within 6 days. |
 | days_to_ship  | int  | Actual time (days) between Order Date and Ship Date. |
-| prod_cost  | object | Shipping Date of the Product. |
-| Ship Mode  | object  | Shipping Mode specified by the Customer. |
-| Customer ID  | object  | Unique ID to identify each Customer.|
-| Customer Name  | object | Name of the Customer. |
-| Segment  | object  | The segment where the Customer belongs. |
-| Country  | object | Country of residence of the Customer. |
-| City  | object  | City of residence of the Customer.  |
-| State | object | State of residence of the Customer. |
-| Postal Code | int | Postal Code of every Customer. |
-| Region | object | Region where the Customer belong. |
-| Product ID | object | Unique ID of the Product. |
-| Category | object | Category of the product ordered. |
-| Sub-Category | object | Sub-Category of the product ordered. |
-| Product Name | object | Name of the Product. |
-| Sales | float | Sales of the Product. |
-| Quantity | int | Quantity of the Product. |
-| Discount | float | Discount provided. |
-| Profit | float | Profit/Loss incured. |
+| cust_type | object | The segment where customer belongs (Segment). |
+| prod_type | object | Category of the Product ordered (Category). |
+| prod_sub-type | object | Sub-Category of the Product ordered (Sub-Category) |
+| prod_cost  | float | Cost to manufacture product (per unit). |
+| prod_price  | float  | Customer price (per unit). |
+| quantity_ordered  | int  | Quantity of the Product (Quantity) |
+| ship_cost | float | Cost to Ship Products per sale. |
+| gross_rev  | float | Total earned by company before deducting costs of product (prod_price * quantity_ordered). |
+| cogs  | float | (prod_cost * quantity_ordered + ship_cost). |
+| gross_profit | float | gross_rev - cogs  |
+| discount_total | float | Total dollar value of discount applied to sale. |
+| net_sales | float | More accurately described as "Profit" as this column represented Gross Profit less Discounts (gross_profit - discount_total). |
+| approx_defect_items | int | Likely total of defected Products in order. |
+| sales_issue | object | Description of identified issue(s) with the sale (if any). |
+| result_of_issue | object | Description of impact to company due to sales issue (if any). |
+| shipment_issue? | float | Binary (1/0, yes/no) to designate whether there was an issue with the sale. |
+| month_ordered | object | Month (e.g., September) of when the Sale was placed by Customer. |
 
 
 

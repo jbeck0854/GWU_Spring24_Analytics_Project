@@ -73,7 +73,7 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 | month_ordered | object | Month (e.g., September) of when the Sale was placed by Customer. |
 
 ## Model details
-- **Columns used as inputs in the final model(s): 
+- **Columns used as inputs in the final model(s)**: 
 
 
 

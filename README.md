@@ -22,7 +22,7 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 - **Data Dictionary (as initially imported)**:
 **Data Overview**: Dataset contains information related to Sales, Profits and other facts of a Superstore giant (Kaggle).
   
-| Name       | Data Type       | Description       |**
+| Name       | Data Type       | Description       |
 |----------------|----------------|----------------|----------------|
 | Row ID  | int  | Unique ID for each row.|
 | Order ID  | int  | Unique Order ID for each customer. |

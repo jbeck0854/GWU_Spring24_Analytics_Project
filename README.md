@@ -8,5 +8,5 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 - **License**: MIT
 - **Link to Notebooks**: https://drive.google.com/drive/folders/1LJqxoJ7WkJ7wE8mGqGBW6uJik5BfFafd?usp=drive_link
 
- ##Intended Use
+ ## Intended Use
  - **Primary intended uses**: 

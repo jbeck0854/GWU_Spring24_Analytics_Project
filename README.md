@@ -25,15 +25,15 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 | Name       | Data Type       | Description       |**
 |----------------|----------------|----------------|----------------|
 | Row ID  | int  | Unique ID for each row.|
-| Order ID  | int  | Unique Order ID for each customer. |
-| Order Date  | int  | Order Date of the product. |
-| Ship Date  | ... | Shipping Date of the Product. |
-| Ship Mode  | int  | Shipping Mode specified by the Customer. |
-| Customer ID  | int  | Unique ID to identify each Customer.|
-| Customer Name  | int  | Name of the Customer. |
-| Segment  | int  | The segment where the Customer belongs. |
-| Country  | ... | Country of residence of the Customer. |
-| City  | int  | City of residence of the Customer.  |
+| Order ID  | object  | Unique Order ID for each customer. |
+| Order Date  | object  | Order Date of the product. |
+| Ship Date  | object | Shipping Date of the Product. |
+| Ship Mode  | object  | Shipping Mode specified by the Customer. |
+| Customer ID  | object  | Unique ID to identify each Customer.|
+| Customer Name  | object | Name of the Customer. |
+| Segment  | object  | The segment where the Customer belongs. |
+| Country  | object | Country of residence of the Customer. |
+| City  | object  | City of residence of the Customer.  |
 | State | object | State of residence of the Customer. |
 | Postal Code | int | Postal Code of every Customer. |
 | Region | object | Region where the Customer belong. |
@@ -42,7 +42,7 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 | Sub-Category | object | Sub-Category of the product ordered. |
 | Product Name | object | Name of the Product. |
 | Sales | float | Sales of the Product. |
-| Quantity | object | Quantity of the Product. |
+| Quantity | int | Quantity of the Product. |
 | Discount | float | Discount provided. |
 | Profit | float | Profit/Loss incured. |
 

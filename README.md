@@ -8,5 +8,42 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 - **License**: MIT
 - **Link to Notebooks**: https://drive.google.com/drive/folders/1LJqxoJ7WkJ7wE8mGqGBW6uJik5BfFafd?usp=drive_link
 
- ## Intended Use
- - **Primary intended uses**: 
+ ## Intended Use & Purpose
+ - **Primary Purpose**: This project served as an introduction to Data Analytics and Machine Learning. Completion of the project tasks aggregated a variety of analytical coding techniques that were learned during the Fall 2024 semester and on my own time. Deliverables, including all notebook scripts and the final portfolio of insights, were completed sequentially in increments. The objective was to find a business-oriented dataset from Kaggle, github, or relevant site, import it into a coding environment, gain experience in using data analysis and machine learning packages in Python or R, and leverage these tools to provide an ROI to company "shareholders".
+ - **Intended users**: Professor Hulseman and classmates.
+ - **Out-of-scope use cases**: Any use beyond GWU DNSC 4211, as an educational piece, is out-of-scope.
+
+## Data
+- **Source of data**: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
+- **How data was divided into training and validation data**: The training data was divided into training and validation sets using the *train_test_split* function from the *model_selection* module of the *scikit-learn* library. The *test_size* parameter was set to 0.2 so that 20% of the 9994 rows in the csv would be set aside for validation and the remaining 80% of the data would be used for fitting the model. Furthermore, the *random_state* parameter was set to 0 for reproducibility.
+- **Number of rows in training and validation data**:
+  - Training rows: 7995
+  - Validation rows: 1999
+- **Data Dictionary (as initially imported)**:
+**Data Overview**: Dataset contains information related to Sales, Profits and other facts of a Superstore giant (Kaggle).
+**| Name       | Data Type       | Description       |**
+|----------------|----------------|----------------|----------------|
+| Row ID  | int  | Unique ID for each row.|
+| Order ID  | int  | Unique Order ID for each customer. |
+| Order Date  | int  | Order Date of the product. |
+| Ship Date  | ... | Shipping Date of the Product. |
+| Ship Mode  | int  | Shipping Mode specified by the Customer. |
+| Customer ID  | int  | Unique ID to identify each Customer.|
+| Customer Name  | int  | Name of the Customer. |
+| Segment  | int  | The segment where the Customer belongs. |
+| Country  | ... | Country of residence of the Customer. |
+| City  | int  | City of residence of the Customer.  |
+| State | object | State of residence of the Customer. |
+| Postal Code | int | Postal Code of every Customer. |
+| Region | object | Region where the Customer belong. |
+| Product ID | object | Unique ID of the Product. |
+| Category | object | Category of the product ordered. |
+| Sub-Category | object | Sub-Category of the product ordered. |
+| Product Name | object | Name of the Product. |
+| Sales | float | Sales of the Product. |
+| Quantity | object | Quantity of the Product. |
+| Discount | float | Discount provided. |
+| Profit | float | Profit/Loss incured. |
+
+
+

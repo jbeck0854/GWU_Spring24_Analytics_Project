@@ -76,7 +76,7 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 - **Columns used as inputs (predictors) in final model(s)**: day_ordered, stand_delivery_delay, zip, prod_cost, prod_price, quantity_ordered, ship_cost, gross_rev, cogs, gross_profit, discount_percent, discount_total, net_sales, approx_defected_items, month_ordered, ship_mode, cust_name, cust_type, city, state, region, prod_type, prod_sub-type, prod_name
 - **Column used as target in the final model(s)**: shipment_issue?
 - **Type of model(s)**: Logistic Regression, Decision Tree
-- **Programming languages and libraries used**: Python, Pandas, Matplotlib, NumPy, Scikit-learn.
+- **Programming languages and libraries used**: Python, Pandas, Matplotlib, Seaborn, NumPy, Scikit-learn.
 
 
 

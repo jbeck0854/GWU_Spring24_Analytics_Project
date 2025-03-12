@@ -51,7 +51,7 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 
 | Name       | Data Type       | Description       |**
 |----------------|----------------|----------------|----------------|
-| day_ordered  | object  | Day of the week Product was ordered. |
+| day_ordered  | int  | Day of the week Product was ordered (Mon==1,...,Sun==7). |
 | stand_delivery_delay  | int  | Calculated median average of time (days) between Order Date and Ship Date within each Ship Mode (assumed "Time to Ship" expectation for each Ship Mode e.g., "Standard Class" expected to ship within 6 days. |
 | days_to_ship  | int  | Actual time (days) between Order Date and Ship Date. |
 | cust_type | object | The segment where customer belongs (Segment). |
@@ -70,10 +70,13 @@ Semester Long Project completed at GWU in Spring 2024 in Programming Analytics c
 | sales_issue | object | Description of identified issue(s) with the sale (if any). |
 | result_of_issue | object | Description of impact to company due to sales issue (if any). |
 | shipment_issue? | float | Binary (1/0, yes/no) to designate whether there was an issue with the sale. |
-| month_ordered | object | Month (e.g., September) of when the Sale was placed by Customer. |
+| month_ordered | int | Month when the Sale was placed by Customer (Jan==1,...,Dec==12). |
 
 ## Model details
-- **Columns used as inputs in final Machine Learning model(s)**: 
+- **Columns used as inputs (predictors) in final model(s)**: day_ordered, stand_delivery_delay, zip, prod_cost, prod_price, quantity_ordered, ship_cost, gross_rev, cogs, gross_profit, discount_percent, discount_total, net_sales, approx_defected_items, month_ordered, ship_mode, cust_name, cust_type, city, state, region, prod_type, prod_sub-type, prod_name
+- **Column used as target in the final model(s)**: shipment_issue?
+- **Type of model(s)**: Logistic Regression, Decision Tree
+- **Programming languages and libraries used**: Python, Pandas, Matplotlib, NumPy, Scikit-learn.
 
 
 

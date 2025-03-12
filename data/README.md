@@ -1,1 +1,1 @@
-Contains all data used for the project, from initial import (*Superstore.xlsx) to sequential data tidying for final project insights and results [ TRUELY_TIDIED.xlsx -> mediaTRUELY_TIDIED2.xslx -> mediaTRUELY_TIDIED2_v2.xlsx ].
+Contains all data used for the project, from initial import (*Superstore.xlsx*) to sequential data tidying for final project insights and results [ *TRUELY_TIDIED.xlsx -> mediaTRUELY_TIDIED2.xslx -> mediaTRUELY_TIDIED2_v2.xlsx* ].
